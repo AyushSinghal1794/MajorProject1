@@ -1,9 +1,9 @@
-nkdir -p ~/.streamlt/
+mkdir -p ~/.streamlt/
 
 echo "\
-[server\n\]
-headless = true \n\
+[server]\n\
 port = $PORT\n\
-enableCORS = false
+enableCORS = false\n\
+headless = true\n\
 \n\
 " > ~/.streamlit/config.toml
